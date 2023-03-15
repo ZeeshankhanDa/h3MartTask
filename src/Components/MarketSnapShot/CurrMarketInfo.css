@@ -1,0 +1,35 @@
+.market__details {
+  margin-top: 2rem;
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: azure;
+  text-transform: uppercase;
+  text-align: center;
+}
+.flex__col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.marketInfo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 14rem;
+  gap: 5rem;
+  background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246))
+    rgb(255, 255, 255);
+}
+small {
+  color: #00000061;
+}
+.red{
+    font-weight: 400;
+    color: red;
+}
+.green{
+    font-weight: 400;
+    color: rgb(3, 166, 3);
+}

@@ -1,0 +1,73 @@
+.Cypto__Info {
+  cursor: pointer;
+  padding: 1rem 0;
+}
+.Cypto__Info:hover {
+  color: rgb(32, 32, 32);
+}
+.crypto__container {
+  /* with position */
+
+  /* position: absolute;
+    right: 10%;
+    top: 60%;
+    z-index: 2;  */
+
+  margin: -8rem 9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4px;
+  width: 80%;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 36%);
+  border-radius: 5px;
+}
+.crypto__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.crypto__name {
+  text-align: left;
+  padding-left: 1.5rem;
+}
+.crypto__img {
+  width: 11%;
+}
+.crypto__flex {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.crypto__flex__col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.crypto__body__row {
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.crypto__header__row {
+  color: #00000075;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.bold {
+  font-size: smaller;
+  font-weight: 500;
+}
+.py-3 {
+  padding: 1rem 1.5rem;
+}
+.more {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1110px) {
+  .py-3 {
+    padding: 1rem 0.5rem;
+  }
+}
